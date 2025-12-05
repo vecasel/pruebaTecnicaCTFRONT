@@ -1,0 +1,127 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #004b8d;
+      color: white;
+      padding: 16px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 24px auto;
+      background-color: white;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .form-group {
+      flex: 1 1 200px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    select, input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 4px;
+      background-color: #004b8d;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    button.secondary {
+      background-color: #777;
+      margin-left: 8px;
+    }
+
+    button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .buttons {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .message {
+      margin-top: 16px;
+      padding: 8px 12px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .message.error {
+      background-color: #ffe6e6;
+      color: #a60000;
+      border: 1px solid #ffb3b3;
+    }
+
+    .message.success {
+      background-color: #e6ffe9;
+      color: #006622;
+      border: 1px solid #b3ffbf;
+    }
+
+    .section {
+      margin-top: 24px;
+    }
+
+    .field-value {
+      font-weight: normal;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .no-data {
+      font-style: italic;
+      color: #555;
+    }
